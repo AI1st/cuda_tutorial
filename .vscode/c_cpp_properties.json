@@ -1,18 +1,19 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Windows",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/ubuntu/anaconda3/envs/cppcuda/include/python3.8",
-                "/home/ubuntu/anaconda3/envs/cppcuda/lib/python3.8/site-packages/torch/include",
-                "/home/ubuntu/anaconda3/envs/cppcuda/lib/python3.8/site-packages/torch/include/torch/csrc/api/include"
+                "E:/ProgramData/anaconda3/envs/ML_base/include",
+                "E:/ProgramData/anaconda3/envs/ML_base/Lib/site-packages/torch/include",
+                "E:/ProgramData/anaconda3/envs/ML_base/Lib/site-packages/torch/include/torch/csrc/api/include",
+                "./include"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
             "cStandard": "c17",
             "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-x64"
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
